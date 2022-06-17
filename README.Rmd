@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# round
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of round is to ... round numbers
+
+## Installation
+
+You can install the development version of round from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("martinasladek/round")
+```
+
+## Example
+
+
+```{r example}
+library(round)
+x <- 0.5
+round::round(0.5)
+```
+
