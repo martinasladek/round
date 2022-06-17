@@ -7,9 +7,9 @@
 round(x, digits = 0)
 }
 \arguments{
-\item{x}{a number. Just one. For now.}
+\item{x}{a numeric vector}
 
-\item{digits}{integer indicating the number of decimal places. Negative values are probably allowed, but I haven't tested this, so maybe just... don't.}
+\item{digits}{a positive integer indicating the number of decimal places. Negative integers will be converted to absolute values.}
 }
 \value{
 a sensibly rounded number.
@@ -18,6 +18,6 @@ a sensibly rounded number.
 Round: Round numbers. Without outrage.
 }
 \examples{
-x <- 0.5
+x <- c(0.5, 1.5, 2.5, 3.5, 4.5)
 round(x, digits = 0)
 }
