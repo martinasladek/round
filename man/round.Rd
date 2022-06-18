@@ -2,20 +2,20 @@
 % Please edit documentation in R/round.R
 \name{round}
 \alias{round}
-\title{Round: Round numbers. Without outrage.}
+\title{Round: Round numbers the way you'd (probably) expect}
 \usage{
 round(x, digits = 0)
 }
 \arguments{
 \item{x}{a numeric vector}
 
-\item{digits}{a positive integer indicating the number of decimal places. Negative integers will be converted to absolute values.}
+\item{digits}{a positive integer indicating the number of decimal places. Negative integers are converted to absolute values.}
 }
 \value{
 a sensibly rounded number.
 }
 \description{
-Round: Round numbers. Without outrage.
+Round: Round numbers the way you'd (probably) expect
 }
 \examples{
 x <- c(0.5, 1.5, 2.5, 3.5, 4.5)
