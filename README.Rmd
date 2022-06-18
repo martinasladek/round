@@ -72,7 +72,7 @@ library(round)
 
 x <- seq(0.5, 4.5, 1)
 x
-round::round(x, digits = 0)
+round(x, digits = 0)
 ```
 
 ```{r message=FALSE, echo = F}
@@ -80,7 +80,7 @@ library(round)
 
 x <- seq(0.5, 4.5, 1)
 x
-round::round(x, digits = 0)
+round(x, digits = 0)
 ```
 
 Note that the package will mask `base::round()` when loaded. 

@@ -68,7 +68,7 @@ library(round)
 
 x <- seq(0.5, 4.5, 1)
 x
-round::round(x, digits = 0)
+round(x, digits = 0)
 ```
 
     #> [1] 0.5 1.5 2.5 3.5 4.5
