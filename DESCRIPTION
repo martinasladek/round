@@ -1,10 +1,10 @@
 Package: round
-Title: What the Package Does (One Line, Title Case)
+Title: Round Numbers
 Version: 0.0.0.9000
 Authors@R: 
     person("Martina", "Sladekova", , "martinasladek@outlook.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-5059-6576"))
-Description: A minimal package that updates the `base::round()` function to get around the floating point problem and round in line with conventions (rounding up for numbers ending in digits 5 or above). Mostly though it's just an excuse for me to learn how to write packages.
+Description: A minimal package that updates the `base::round()` function to round in line with conventions (rounding up for numbers ending in digits 5 or above). 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
